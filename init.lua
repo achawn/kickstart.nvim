@@ -951,6 +951,7 @@ require('lazy').setup({
       vim.keymap.set('n', '<leader>gs', '<cmd>Git<cr><C-w>o', { desc = 'status' })
     end,
   },
+  { 'MattesGroeger/vim-bookmarks' },
 }, {
   ui = {
     -- If you are using a Nerd Font: set icons to an empty table which will use the
