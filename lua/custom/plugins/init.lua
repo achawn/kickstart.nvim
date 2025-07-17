@@ -5,6 +5,8 @@
 
 -- Personal Options
 vim.opt.relativenumber = true
+
+-- Personal Plugins
 return {
   {
     'tpope/vim-fugitive',
